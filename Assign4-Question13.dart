@@ -1,0 +1,16 @@
+
+import 'dart:io';
+
+void main(){
+    int rows = 4;
+    int result = 1;
+    for(int i = 0 ; i< rows; i++)
+    {
+      //print(i);
+        for(int j = 0; j<=i;j++)
+        {
+            stdout.write('${result++} ');
+        }
+        stdout.writeln();
+    }
+}
